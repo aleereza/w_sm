@@ -65,14 +65,6 @@ class Hamburger extends React.Component {
       }
     `
 
-    const line1Style = css``
-
-    const line2Style = css`
-      ${this.props.status && `display: none;`}
-    `
-
-    const line3Style = css``
-
     return (
       <div css={hamburgerWrapperStyle} onClick={this.props.toggle}>
         <svg id="i1" css={hamburgerSVGStyle} viewBox="0 0 100 100">
